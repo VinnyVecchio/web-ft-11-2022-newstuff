@@ -1,0 +1,17 @@
+# find me all the restaurants that start with U
+# if
+#  get me the last restaurant
+# get me the second to last restaurant
+# upperecase all the of the restaurants
+
+listOfNames = ("rocky", "shaggy", "doggo","sammy", "vinny")
+
+for names in listOfNames:
+    if names[0] == "r":
+        print("great")
+
+print(listOfNames[-2])
+
+
+for names in listOfNames:
+    print(names .upper())
