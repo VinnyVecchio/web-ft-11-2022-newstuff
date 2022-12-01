@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    background-color: brown;
+}
+h3{
+    text-align: center;
+    background-color: brown;
+    margin: 200px;
+    font-family:"American Typewriter" ;font-size: 100px;
+}
+
+.images{
+    text-align: center;
+  }
+.everything{
+    background-image: url("https://cutewallpaper.org/26/facebook-background-images/100000-best-facebook-background-photos-%C2%B7-100-free-download-%C2%B7-pexels-stock-photos.jpeg");
+    position: absolute;
+    margin-bottom: 100px;
+    margin-right: 25px;
+    opacity: 4;
+
+}

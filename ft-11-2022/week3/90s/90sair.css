@@ -1,0 +1,18 @@
+.everything{
+background-image: url("https://sportsmatik.com/uploads/matik-sports-corner/matik-know-how/airsoft_1595333368.jpg")
+}
+h1{
+    text-align: center;
+    border: 2px solid green;
+}
+h2{
+    text-align: center;
+    border: 2px solid green;
+}
+p{
+    text-align: center;
+    color: black;
+    border: 10 px solid green;
+    background-color: white;
+    opacity: .6;
+}
