@@ -1,0 +1,423 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Teko', sans-serif;
+   
+}
+.aboutUsBody{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+.aboutUsContainer{
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 600px;
+    color:#F0EAD6 ;
+    border-radius: 15px
+        ;
+        box-shadow: 0 0 8px 8px orange;
+        
+}
+.aboutUs{
+    font-size: 100px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    
+}
+/* dom stuff */
+.gameTitle{
+    color: #F0EAD6; 
+    text-align:center;
+    align-items: center;
+    align-content: center;
+    margin:10px;
+    font-size: 100px;
+    
+}
+.gamePoster{
+    display: -webkit-box;
+
+    margin-left:150px;
+    place-content: center;
+    
+}
+.gameMature{
+    margin-top: 20px;
+    text-align: center;
+    color: #F0EAD6;
+    font-size: 50px;
+    border-radius: 15px
+    ;
+    box-shadow: 0 0 8px 8px red ;
+}
+.gameDescription{
+    color: #F0EAD6;
+    font-size: 30px;
+    margin-top: 25px;
+    gap: 10px;
+    text-align: center;
+}
+.gameYear{
+    background-color: black;
+    color: orange;
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.gameRating{
+    background-color: black;
+    color: orange;
+    font-size: 45px;
+    text-align: center;
+}
+.gameType{
+    background-color: black;
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+}
+.gameDev{
+    background-color: black;
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+}
+/* dom stuff */
+.slogan{
+    font-family: 'Teko', sans-serif;
+
+    color:#F0EAD6 ;
+    padding-left: 1rem;
+   text-align: center;
+   font-size: 50px;
+   
+}
+.navbar{
+    background:#222;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navBarContainer{
+    position: sticky;
+ display: flex;
+ justify-content: space-between;  
+ height: 80px; 
+ z-index: 1;
+ width: 100%;
+ max-width: 1300px;
+ margin: 0 auto;
+ padding: 0 50px;
+ border-radius: 15px
+    ;
+    box-sizing: 0 0 8px 8px black ;
+}
+
+
+#navBarLogo{
+    background-color: #222;
+    background-image: linear-gradient(to top, #222 0%, white 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.navBarMenu{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align:center
+}
+.navBarItem{
+    height: 80px;
+    width: 100%;
+    
+    
+    
+}
+.navBarLinks{
+    color: #F0EAD6;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+.navBarLinks:hover{
+    color: orange;
+    transition: all 1s ease;
+}
+body{
+    background-color: #222;
+}
+.videoGameTrailer{
+    width: 100%;
+    height: 100%;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.swiper{
+    width:80% ;
+    height: 100%;
+    height: fit-content;
+    border-radius: 15px
+    ;
+    box-shadow: 0 0 8px 8px orange ;
+}
+.swiper-slide iframe{
+animation:fadeIn 8s; 
+width: 100%;
+
+
+
+
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .swiper .swiper-button-prev, .swiper .swiper-button-next{
+    opacity: 0.5;
+    height: 100px;
+    width: 30px;
+
+  }
+
+  .gamePoster{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 10%;
+    border-radius: 10%
+    ;
+    box-shadow: 0 0 8px 8px orange ;
+  }
+  .searchInput{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    border-radius: 20%;
+    
+  }
+  .searchField{
+    background-color: #F0EAD6;
+    font-size: 20px;
+    width: 185px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 15px
+    ;
+    
+  }
+  .searchButton{
+    width: 40px;
+    height: 30px;
+    border: none;
+    
+    
+  }
+  .searchButton :hover{
+    background-color: orange;
+  }
+  .fa-arrow-right{
+    padding-top: 9px;
+    width: 100%;
+    height: 100%;
+ align-items: center;
+ align-content:center ;
+ background-color: white;
+ border-radius: 20%;
+
+  }
+  .fa-arrow-right:hover{
+    background-color: orange;
+    transition: all 0.6s ease;
+  }
+
+  @media screen and (max-width:960px) {
+
+    /* domStuff */
+    .gameTitle{
+        
+        display:flex;
+        /* padding-top: 75px; */
+       align-items: center;
+       align-content: center;
+       place-content: center;
+        /* height: 200px; */
+        text-align:center;
+        font-size: 50px;
+        
+    }
+
+    /* domStuff */
+    
+    
+    .navBarContainer{
+        display: flex;
+        justify-content: space-between ;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1250px;
+        padding: 0;
+        
+    }
+    
+
+    .navBarMenu{
+        background-color: orange;
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+    }
+    .navBarMenu.active{
+        color: grey;
+        top: 100%;
+        opacity: 1;
+        transition: all 1s ease;
+        z-index: 99;
+        height: 30%;
+        font-size: 1.5rem;
+        
+    }
+    #navBarLogo{
+        padding-left: 25px;
+    }
+    .navBarToggle .bar{
+width: 25px;
+height: 3px;
+margin: 5px auto;
+transition: all 0.5s ease-in-out;
+background-color: #fff;
+    }
+   
+    
+    .navBarItem{
+        width: 100%;
+        background-color: orange;
+    }
+   
+    .navBarLinks{
+        color: black;
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    #mobile-menu{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%,20%) ;
+    }
+   
+    .navBarToggle .bar{
+        display: block;
+
+    }
+    #mobileMenu.is-active .bar:nth-child(2){
+opacity: 0;
+    }
+    #mobileMenu.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+        }
+        #mobileMenu.is-active .bar:nth-child(3){
+            transform: translateY(-8px) rotate(-45deg);
+            }
+  }
+
+  @media  screen and (max-width: 1920px) {
+    .gameTitle{
+        color: #F0EAD6; 
+        text-align:center;
+        align-items: center;
+        align-content: center;
+        margin:10px;
+        font-size: 100px;
+        
+    }
+    .gamePoster{
+        display: -webkit-box;
+    
+        margin-left:150px;
+        
+    }
+    .gameMature{
+        margin-top: 20px;
+        text-align: center;
+        color: #F0EAD6;
+        font-size: 50px;
+        border-radius: 15px
+        ;
+        box-shadow: 0 0 8px 8px red ;
+    }
+    .gameDescription{
+        color: #F0EAD6;
+        font-size: 30px;
+        margin-top: 25px;
+        gap: 10px;
+        text-align: center;
+    }
+    .gameYear{
+        font-size: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .gameRating{
+        font-size: 45px;
+        text-align: center;
+    }
+    .gameType{
+        font-size: 40px;
+        text-align: center;
+    }
+    .gameDev{
+        font-size: 35px;
+        text-align: center;
+    }
+}

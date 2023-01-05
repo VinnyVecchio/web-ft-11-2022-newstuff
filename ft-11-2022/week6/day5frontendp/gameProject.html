@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Wisdom</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="gameProject.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/985c22d306.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <div class="navBarContainer">
+    <a href="gameProject.html" id="navBarLogo"><i class="fa-solid fa-gamepad"></i> Game Wizdom</a>
+    <div class="navBarToggle" id="mobileMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <ul class="navBarMenu">
+        <li class="navBarItem">
+            <a href="gameProject.html" class="navBarLinks">Home</a>
+
+        </li>
+        <li class="navBarItem">
+            <a href="aboutus.html" class="navBarLinks">About us</a>
+
+        </li>
+        <li class="navBarItem">
+            <a href="/difference.html" class="navBarLinks">How Are We Different</a>
+
+        </li>
+    </ul>
+           
+            <div class="searchInput">
+                <input class="searchField" type="text" placeholder="Search By Title">
+                <button class="searchButton"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+    <div class="topGameContainer">
+        <!-- <div class="searchContainer">
+            
+        </div> -->
+       <div class="slogan"><h1>Expand Your Knowlege About The Newest Games</h1></div>
+        <div class="videoGameTrailer">
+         <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class = "swiper-slide"><iframe width="1440" height="950" src="https://www.youtube.com/embed/PDELaG1YreU?start=3&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="swiper-slide"><iframe width="1440" height="950" src="https://www.youtube.com/embed/c0i88t0Kacs?controls=0&start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class = "swiper-slide"><iframe width="1440" height="950" src="https://www.youtube.com/embed/OeVapCrI1pY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+      
+    </div>
+    
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>   
+        </div>
+            <!-- Slider main container -->
+
+  
+    
+        </div>
+        
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>   
+<script>
+    const swiper = new Swiper('.swiper', {
+  autoplay:{
+    delay:20000,
+    disableOnInteraction:false,
+  },
+
+  loop: true,
+
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+</script>
+
+</body>
+
+<script src="gameProject.js"></script>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>
+</html>
